@@ -1,0 +1,75 @@
+body {
+    background: #686868;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.stopwatch {
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.stopwatch-scoreboard {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #00f2ee;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.stopwatch-scoreboard-item {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #fff;
+    border: none;
+}
+
+.stopwatch__btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stopwatch__btn-start {
+    background-color: #16ed2c;
+}
+
+.stopwatch__btn-mark {
+    background-color: rgb(20, 139, 230);
+}
+
+.stopwatch__btn-reset {
+    background-color: red;
+}
+
+.stopwatch__btn-pause {
+    background-color: rgb(255, 209, 2);
+}
+
+.stopwatch__mark-list {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: blueviolet;
+}
+
+.stopwatch__mark-item {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 173);
+}
+
+.stopwatch__mark-item:last-child {
+    margin-bottom: 0;
+}
